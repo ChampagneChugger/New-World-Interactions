@@ -1,10 +1,11 @@
 import SteamUser from "steam-user"
+import "dotenv/config"
 
 process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0"
 
 const client = new SteamUser()
 
-client.logOn({ accountName: "marioxxz", password: "Vortex123!" })
+client.logOn({ accountName: process.env.account_name, password: process.env.account_password })
 
 client.on("loggedOn", () => {
     console.log("LOGGED ON")
