@@ -70,3 +70,5 @@ async function login(ticket) {
 
 // character creation
 // https://18.66.17.48/prod/game/worlds/1fd8ddcd-1d24-4a7b-86c4-c2633dc1aa89/characters/jwt/omni?channelId=STEAM_APP_ID.1063730
+
+// 
